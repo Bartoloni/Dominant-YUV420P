@@ -1,0 +1,3 @@
+<profiles version="1">
+ <profile speeds="preset=slower;preset=medium;preset=faster;preset=ultrafast" category="Generic (HD for web, mobile devices...)" name="MP4 Dominant yuv420p [Davy]" audiobitrates="256,64" extension="mp4" defaultaudiobitrate="0" qualities="45" args="f=mp4 movflags=+faststart vcodec=libx264 progressive=1 g=15 bf=2 crf=%quality acodec=aac ab=%audiobitrate+'k' mlt_image_format=yuv420p pix_fmt=yuv420p" defaultquality="45"/>
+</profiles>
